@@ -21,7 +21,7 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/cyatteau/gamified-demo-conf42js-2024.git
+    git clone https://github.com/cyatteau/gamified-demo-FINAL-conf42js-2024.git
     ```
     
 2. Navigate to the project directory:
