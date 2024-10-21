@@ -1,5 +1,8 @@
+// ProgressBar.jsx
+import {memo} from "react";
+
 const ProgressBar = ({ xp }) => {
-  const progressPercentage = xp % 100;
+  const progressPercentage = (xp / 100) * 100;
 
   return (
     <>
@@ -21,4 +24,4 @@ const ProgressBar = ({ xp }) => {
   );
 };
 
-export default ProgressBar;
+export default memo(ProgressBar);
